@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em html5</title>
+</head>
+<body>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5.</p>
+    <audio preload="metadata" autoplay controls><!--se quiser que o audio se repita automaticamente põe tbm o loop do lado do controls-->
+        <source src="midia/ponies-and-balloons.mp3" type="audio/mpeg">
+        <source src="midia/ponies-and-balloons.ogg" type="audio/ogg">
+        <source src="midia/ponies-and-balloons.wav" type="audio/wav"><!--arquivo wav não é indicado pq ele é muito pesado-->
+        <p>Infelinmente seu navegador não consegue reproduzir áudio. <a href="midia/ponies-and-balloons.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+</body>
+</html>
