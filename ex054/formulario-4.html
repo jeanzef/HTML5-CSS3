@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <p>Colocando obrigação de preenchimento</p><br>
+    <p>Dizendo que é senha, assim mantendo descrição</p><br>
+    <p>Colocando máximo e minimo de carcteres e quanto ira aparecer deles para visualização</p><br>
+    <p>Colocando dicas dentro da caixa de preenchimento</p><br>
+    <p>E por final manos dizer para que é a caixa </p><br>
+
+    <form action="cadastro.php" autocomplete="on" method="post" >
+        <p>
+            <label for="iusuário">Usuário</label>
+            <input type="text" name="usuário" id="iusuário" required minlength="8" maxlength="15" size="10" placeholder="Usuário" autocomplete="username">
+        </p>
+        <p>
+            <label for="isenha">Senha</label>
+            <input type="password" name="senha" id="isenha" required minlength="8" maxlength="10" size="10" placeholder="Senha" autocomplete="current-password">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
