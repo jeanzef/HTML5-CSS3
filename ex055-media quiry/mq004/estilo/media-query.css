@@ -47,6 +47,7 @@
         background-image: url(../imagens/back-pc.jpg);
     }
 
+    
     img#phone{display: none;}
     img#tablet{display: none;}
     img#print{display: none;}
