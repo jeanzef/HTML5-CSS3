@@ -31,13 +31,21 @@
     }
 
     section#login >div#imagem {
-        float: left; /*isso faz decidir qual o lafo que quer a imagem*/
+        float: right; /*isso faz decidir qual o lafo que quer a imagem*/
         width: 50%;
         height: 100%;
     }
 
     section#login >div#formulario{
-        float: right;/*isso faz decidir qual o lafo que quer a imagem*/
+        float: left;/*isso faz decidir qual o lafo que quer a imagem*/
         width: 50%;
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+    
+    div#formulario > p {
+        font-size: 1.2em;
     }
 }
